@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Store</title>
+    <link rel="icon" type="image/png" href="AppleImages/applefaviconnew.png">
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .h3 {
+            text-align: center;
+            font-weight: 400;
+            font-size: 30px;
+
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .btns {
+            background-color: rgba(0, 153, 255, 0.692);
+            border: none;
+            border-radius: 20px;
+            color: white;
+            box-shadow: none;
+
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+            padding: 12px;
+            font-size: 18px;
+            cursor: pointer;
+
+        }
+
+        .btns:hover {
+            color: black;
+            background-color: rgb(228, 223, 223);
+            transition: 0.2s;
+        }
+
+        .div1:hover {
+            transform: scale(1.1);
+            z-index: 1;
+            transition: 0.5s;
+        }
+
+        .div1 {
+
+            box-shadow: rgb(100, 100, 111, 0.9)10px 20px 29px 10px;
+            transition: 0.5s;
+            margin: 0 25px;
+            justify-content: space-evenly;
+            display: inline-block;
+            text-align: center;
+            flex-direction: column;
+            /* Stack elements vertically */
+            align-items: center;
+            /* Center elements horizontally */
+            justify-content: space-between;
+            /* Distribute space evenly */
+            height: 100%;
+            /* Ensures full height usage */
+        }
+    </style>
+    <style>
+        body {
+            background-color: #e4e2e2;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        .nav1 ul {
+            overflow: hidden;
+            color: white;
+            list-style-type: none;
+            padding: 0px;
+            margin: 0 auto;
+            justify-content: center;
+
+            display: flex;
+
+
+        }
+
+        .nav1 a {
+            list-style-type: none;
+            padding: 15px;
+            border-radius: 10px;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            font-size: 13px;
+            font-weight: 100;
+
+
+        }
+
+        .nav1 a:hover {
+            text-decoration: underline;
+        }
+
+        .nav li {
+            float: left;
+        }
+
+        .h1 {
+            margin-left: 100px;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .h2 {
+
+            margin-left: 100px;
+            font-size: 30px;
+
+            font-weight: 620;
+        }
+
+        .gallery {
+
+            display: inline-block;
+
+
+            width: 250px;
+        }
+
+        .gallery .description {
+            padding-top: 50px;
+            
+            text-align: center;
+            font-size: 15px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .gallery img {
+            margin-bottom: 20px;
+         
+            width: 80%;
+            height: auto;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="nav1">
+
+        <ul>
+            <a href="AppleHomePage.html" style="margin-top: -9px;"><img src="AppleImages/appleblacklogo.png"
+                    height="35px" alt="" "></a>
+            <li ><a href=" AppleStore.html">Store</a></li>
+            <li><a href="AppleMac.html">Mac</a></li>
+            <li><a href="AppleiPad.html">iPad</a></li>
+            <li><a href="AppleiPhone.html">iPhone</a></li>
+            <li><a href="AppleWatch.html">Watch</a></li>
+            <li><a href="AppleVisionPro.html">Vision</a></li>
+            <li><a href="AppleAirpods.html">AirPods</a></li>
+            <li><a href="AppleTV.html">Tv & Home</a></li>
+
+            <li><a href="AppleAccessories.html"" >Accessories</a></li>
+            <li><a href=" AppleSupport.html">Support</a></li>
+        </ul>
+
+
+
+    </nav>
+
+    <br>
+    <h1 class="h1">Store. The best way to buy the <br>products you love.</h1>
+    </h1>
+
+    <br><br>
+    <div style="text-align: center;justify-content: center;margin: 0 auto;">
+    <div class="gallery">
+
+        <img src="AppleImages/maclogo.png" alt="">
+        <a href="AppleMac.html">
+            <div class="description">Mac</div>
+        </a>
+    </div>
+    <div class="gallery">
+
+        <img src="AppleImages/iphonelogo.png" alt="">
+        <a href="AppleiPhone.html">
+            <div class="description">iPhone</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <img src="AppleImages/visionprologo.png" alt="">
+        <a href="AppleVisionPro.html">
+            <div class="description">Vision Pro</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <img src="AppleImages/ipadlogoremovebg.png" alt="">
+        <a href="AppleiPad.html">
+            <div class="description">iPad</div>
+        </a>
+
+    </div>
+</div>
+    <br><br><br>
+    <hr><br>
+
+    <h2 class="h2">The latest. Take a look at what’s new, right now.</h2>
+    <br><br>
+    <div style="justify-content: center;text-align: center;display: flex;margin: 0 auto;">
+        <div class="clearfix">
+            <!--First Line-->
+            <div class="div1"
+                style="border-radius:30px ; height: 390px;width:340px;background-color:black; float:left;">
+
+                <h1
+                    style="text-align: center; margin-top: 30px;   font-weight: 500;color: white;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    iPhone 16 Pro</h1>
+                <h4
+                    style=" text-align: center; margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: white;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Camera Control Magic</h4>
+
+                <a href="AppleiPhone.html"><button class="btns">Browse</button></a>
+
+                <img src="AppleImages/16profloat.jpeg" height="340px" width="340px" style="border-radius:30px;" alt="">
+
+
+
+            </div>
+            <div class="div1" style="float:left;border-radius:30px ; height: 530px;width:340px;background-color:white;">
+
+
+                <h1
+                    style="text-align: center;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Apple Watch</h1>
+                <h4
+                    style="text-align: center;margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Super Accurate Tracking</h4>
+
+                <a href="AppleWatch.html"><button class="btns">Browse</button></a>
+
+
+                <img src="AppleImages/applewatchfloat.jpeg" height="320px" width="300px" style="border-radius:30px ;"
+                    alt="">
+
+
+            </div>
+            <div class="div1" style="float:left;border-radius:30px ; height: 530px;width:340px;background-color:white;">
+
+                <h1
+                    style="text-align: center;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    iPad 10th Gen</h1>
+                <h4
+                    style="text-align: center ;margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Lovable & Drawable</h4>
+
+                <a href="AppleiPad.html"> <button class="btns">Browse</button></a>
+
+
+                <img src="AppleImages/ipadfloat.jpeg" height="320px" width="300px" style="border-radius:30px ;" alt="">
+
+            </div>
+            <br><br><br>
+            <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+
+
+            <br><br><br>
+            <!--Second Line-->
+            <div class="div1"
+                style="border-radius:30px ; height: 550px;width:340px;background-color:white; float:left;">
+
+                <h1
+                    style="margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Vision Pro</h1>
+                <h4
+                    style=" margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    A.R Magic</h4>
+
+                <a href="AppleVisionPro.html"><button class="btns">Browse</button></a>
+
+
+
+
+                <img src="AppleImages/visionfloat.jpeg" height="350px" width="300px"
+                    style="border-radius:30px;margin-bottom: -20px;" alt="">
+
+
+
+            </div>
+            <div class="div1" style="float:left;border-radius:30px ; height: 550px;width:340px;background-color:black;">
+
+                <h1
+                    style="margin-top: 30px;   font-weight: 500;color: white;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Macbook Pro</h1>
+                <h4
+                    style=" margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: white;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Powered By M4 Chip</h4>
+
+                <a href="AppleMac.html"> <button class="btns">Browse</button></a>
+
+
+
+
+
+
+                <img src="AppleImages/macbookfloat.jpeg" height="350px" style="border-radius:30px ;" alt="">
+
+
+            </div>
+            <div class="div1"
+                style="float:left;border-radius:30px ; height: 530px;width:340px;background-color:white; ">
+
+
+
+                <h1
+                    style="margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    iPhone 16</h1>
+                <h4
+                    style=" margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    More Features. Less Price</h4>
+
+                <a href="AppleiPhone.html"><button class="btns" ">Browse</button></a>
+
+
+            <img src=" AppleImages/16float3.jpeg" height="340px" style="border-radius:30px ;" alt="">
+
+            </div>
+            <br><br><br>
+            <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+
+            <!--Third Line-->
+            <br><br><br>
+            <div class="div1" style="border-radius:30px ; height: 550px;width:340px;background-color:white;float:left;">
+
+                <h1
+                    style="margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    iPad Air</h1>
+                <h4
+                    style="margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Thin & Light</h4>
+
+                <a href="AppleiPad.html"><button class="btns">Browse</button></a>
+
+
+
+
+                <img src="AppleImages/airfloat.jpg" height="340px" width="340px"
+                    style="border-radius:30px;margin-bottom: -20px;margin-top: 10px;" alt="">
+
+
+
+            </div>
+            <div class="div1"
+                style="float:left;border-radius:30px ; height: 550px;width:340px;background-color:black; ">
+
+                <h1
+                    style="margin-top: 30px;   font-weight: 500;color: white;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Watch Ultra </h1>
+                <h4
+                    style=" margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: white;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Stay Ultra Fit</h4>
+
+                <a href="AppleWatch.html"><button class="btns">Browse</button></a>
+
+
+
+
+
+
+                <img src="AppleImages/ultra2float.jpeg" height="350px" style="border-radius:30px" alt="">
+
+
+            </div>
+            <div class="div1" style="float:left;border-radius:30px ; height: 530px;width:340px;background-color:white;">
+
+
+
+                <h1
+                    style="margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Mac Mini</h1>
+                <h4
+                    style="margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Powerful & Portable</h4>
+
+                <a href="AppleMac.html"> <button class="btns">Browse</button></a>
+
+
+                <img src="AppleImages/macminifloat.jpeg" height="320px" style="border-radius:30px ;" alt="">
+
+            </div>
+
+            <br><br><br>
+
+            <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+
+            <!--Fourth Line-->
+            <br><br><br>
+            <div class="div1" style="border-radius:30px ; height: 550px;width:340px;background-color:white;">
+
+                <h1
+                    style="margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    iMac</h1>
+                <h4
+                    style="margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Ultra Powerful</h4>
+
+                <a href="AppleMac.html"><button class="btns">Browse</button></a>
+
+
+
+
+                <img src="AppleImages/imacfloat.jpeg" height="340px" width="340px"
+                    style="border-radius:30px;margin-bottom: -20px;margin-top: 10px;" alt="">
+
+
+
+            </div>
+            <div class="div1" style="float:left;border-radius:30px ; height: 550px;width:340px;background-color:black;">
+
+                <h1
+                    style="margin-top: 30px;   font-weight: 500;color: white;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    iPad Pro</h1>
+                <h4
+                    style="margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: white;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Pro Performace</h4>
+
+                <a href="AppleiPad.html"> <button class="btns">Browse</button></a>
+
+
+
+
+
+
+                <img src="AppleImages/ipadprofloat.jpeg" height="350px" style="border-radius:30px ;" alt="">
+
+
+            </div>
+            <div class="div1"
+                style="float: left;border-radius:30px ; height: 530px;width:340px;background-color:white;">
+
+
+
+                <h1
+                    style="margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    MacBook Air</h1>
+                <h4
+                    style="margin-top: 10px;margin-bottom: 30px;   font-weight: 400;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Powerful Ultrabook</h4>
+
+                <a href="AppleMac.html"><button class="btns">Browse</button></a>
+
+
+                <img src="AppleImages/macbookairfloat.jpeg" height="330px" style="border-radius:30px ;" alt="">
+
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <hr>
+    <br><br>
+    <h2 class="h2">Accessories. Essentials that pair perfectly with your favorite devices.</h2>
+    <br><br>
+    <div style="display: flex;text-align: center;justify-content: center;margin:  auto;">
+
+        <div class="clearfix">
+            <div class="div1" style="border-radius:30px ;height: 390px;width:340px;background-color:white; float:left;">
+
+                <h1
+                    style="font-size: larger; margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    MagSafe Clear Case</h1>
+                <br>
+                <a href="AppleAccessories.html"><button class="btns">Discover</button></a><br><br>
+                <img src="AppleImages/clearcasefloat.jpeg" height="210px" style="border-radius:30px;" alt="">
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+            <div class="div1" style="border-radius:30px ; height: 390px;width:340px;background-color:white;float:left;">
+
+                <h1
+                    style="font-size: larger;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Sport Loop</h1>
+                <br>
+                <a href="AppleAccessories.html"> <button class="btns">Discover</button></a><br><br>
+                <img src="AppleImages/sportloopfloat.jpeg" height="210px" style="border-radius:30px ;margin-top: 20px;"
+                    alt="">
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+            <div class="div1" style="border-radius:30px ; height: 390px;width:340px;background-color:white;float:left;">
+
+                <h1
+                    style="font-size: larger;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Milanese Loop</h1>
+                <br>
+                <a href="AppleAccessories.html"><button class="btns">Discover</button></a><br><br>
+                <img src="AppleImages/milaneseloop.jpeg" height="210px" style="border-radius:30px ;;margin-top: 20px;"
+                    alt="">
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </pre>
+
+
+            <!--Second accessories line-->
+
+
+            <div class="clearfix">
+                <div class="div1"
+                    style="border-radius:30px ; height: 390px;width:340px;background-color:white; float:left;">
+
+                    <h1
+                        style="font-size: larger; margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                        Silicon Case</h1>
+                    <br>
+                    <a href="AppleAccessories.html"> <button class="btns">Discover</button></a><br><br>
+                    <img src="AppleImages/siliconcasefloat.jpeg" height="210px"
+                        style="border-radius:30px ;margin-top: 20px;" alt="">
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+                <div class="div1"
+                    style="border-radius:30px ; height: 390px;width:340px;background-color:white; float:left;">
+
+                    <h1
+                        style="font-size: larger;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                        MagSafe Wallet</h1> <br>
+
+                    <a href="AppleAccessories.html"><button class="btns">Discover</button></a><br><br>
+                    <img src="AppleImages/walletfloat.jpeg" height="210px" style="border-radius:30px ;" alt="">
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+                <div class="div1"
+                    style="border-radius:30px ; height: 390px;width:340px;background-color:white;float:left;">
+
+                    <h1
+                        style="font-size: larger;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                        MagSafe Charger</h1>
+                    <br>
+                    <a href="AppleAccessories.html"><button class="btns">Discover</button></a><br><br>
+                    <img src="AppleImages/magsafefloat.jpeg" height="210px"
+                        style="border-radius:30px ;margin-top: 20px;" alt="">
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+                <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </pre>
+
+
+                <!--Third accessory line-->
+
+
+
+                <div class="clearfix">
+                    <div class="div1"
+                        style="border-radius:30px ; height: 390px;width:340px;background-color:white;float:left;">
+
+                        <h1
+                            style="font-size: larger;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                            Folio Case</h1>
+                        <br>
+                        <a href="AppleAccessories.html"><button class="btns">Discover</button></a><br><br>
+                        <img src="AppleImages/foliofloat.jpeg" height="210px"
+                            style="border-radius:30px ;margin-top: 20px;" alt="">
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                    <div class="div1"
+                        style="border-radius:30px ; height: 390px;width:340px;background-color:white;float:left;">
+
+                        <h1
+                            style="font-size: larger;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                            Apple Pencil Pro</h1>
+                        <br>
+                        <a href="AppleAccessories.html"><button class="btns">Discover</button></a><br><br>
+                        <img src="AppleImages/pencilfloat.jpeg" height="210px"
+                            style="border-radius:30px ;margin-top: 20px;" alt="">
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                    <div class="div1"
+                        style="border-radius:30px ; height: 390px;width:340px;background-color:white;float:left;">
+
+                        <h1
+                            style="font-size: larger;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                            Apple Airtag</h1>
+                        <br>
+                        <a href="AppleAccessories.html"><button class="btns">Discover</button></a><br><br>
+
+                        <img src="AppleImages/airtag.jpeg" height="210px" style="border-radius:30px ;margin-top: 20px;"
+                            alt="">
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <br><br><br>
+    <hr>
+    <br>
+    <h2 class="h2">Our Top Selling Audio Devices</h2>
+    <br><br><br>
+    <div style="display: flex;text-align: center;justify-content: center;">
+        <div class="clearfix">
+            <div class="div1" style="border-radius:30px ; height: 390px;width:340px;background-color:white;float:left;">
+
+                <h1
+                    style="font-size: larger;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Homepod</h1>
+                <br>
+                <a href="AppleTV.html"><button class="btns">Discover</button></a><br>
+                <img src="AppleImages/homepodfloat.jpeg" height="210px" style="border-radius:30px ;margin-top: 20px;"
+                    alt="">
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="div1" style="border-radius:30px ; height: 390px;width:340px;background-color:white;float:left;">
+
+                <h1
+                    style="font-size: larger;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Airpods Max</h1>
+                <br>
+                <a href="AppleAirpods.html"><button class="btns">Discover</button></a>
+                <img src="AppleImages/airpodsmax.jpeg" height="210px" style="border-radius:30px ;margin-top: 20px;"
+                    alt="">
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="div1" style="border-radius:30px ; height: 390px;width:340px;background-color:white;float:left;">
+
+                <h1
+                    style="font-size: larger;margin-top: 30px;   font-weight: 500;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Airpods 4</h1>
+                <br>
+                <a href="AppleAirpods.html"><button class="btns">Discover</button></a>
+                <br>
+                <img src="AppleImages/airpods4float.jpeg" height="210px" style="border-radius:30px ;margin-top: 20px;"
+                    alt="">
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <hr><br>
+    <h1 class="h1">Quick Links</h2>
+
+        <a href="AppleHomePage.html"><button class="btns"
+                style="margin-right: 20px;margin-left: 95px;">Home</button></a>
+        <a href="AppleSupport.html"> <button class="btns" style="margin-right: 20px;">Support</button></a>
+        <a href="AppleAbout.html"><button class="btns">About Apple</button></a>
+
+
+        <br><br><br>
+
+        <div style="width: 100%;height:550px;background-color: lightgrey;margin: 0%;">
+
+            <p
+                style="justify-content:center;padding:30px;  font-size: 12px;color: black;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+
+                ∆ Apple Intelligence is available in beta on all iPhone 16 models, iPhone 15 Pro, iPhone 15 Pro Max,
+                iPad mini (A17 Pro), and iPad and Mac models with M1 and later, with Siri and device language set to
+                English (Australia, Canada, Ireland, New Zealand, South Africa, UK, or U.S.), as part of an iOS 18,
+                iPadOS 18, and macOS Sequoia software update. Additional features and languages will be available in
+                April, with more languages and platforms coming over the course of the year. Languages supported in 2025
+                include Chinese, English (India, Singapore), French, German, Italian, Japanese, Korean, Portuguese,
+                Spanish, and Vietnamese. <br><br>
+
+                * Pricing for iPhone 16 and iPhone 16 Plus includes a $30 connectivity discount that requires carrier
+                activation with AT&T, Boost Mobile, T-Mobile, or Verizon. Financing available to qualified customers,
+                subject to credit approval and credit limit, and requires you to select Citizens One Apple iPhone
+                Payments or Apple Card Monthly Installments (ACMI) as your payment type at checkout at Apple. You’ll
+                need to select AT&T, Boost Mobile, T‑Mobile, or Verizon as your carrier when you checkout. An iPhone
+                purchased with ACMI is always unlocked, so you can switch carriers at any time, subject to your
+                carrier’s terms. Taxes and shipping on items purchased using ACMI are subject to your card’s variable
+                APR, not the ACMI 0% APR. ACMI is not available for purchases made online at special storefronts. The
+                last month’s payment for each product will be the product’s purchase price, less all other payments at
+                the monthly payment amount. ACMI financing is subject to change at any time for any reason, including
+                but not limited to, installment term lengths and eligible products. See the Apple Card Customer
+                Agreement(Opens in a new window) for more information about ACMI. Additional Citizens One Apple iPhone
+                Payments terms are here(Opens in a new window). <br><br>
+
+                Apple Card Monthly Installments (ACMI) is a 0% APR payment option that is only available if you select
+                it at checkout in the U.S. for eligible products purchased at Apple Store locations, apple.com(Opens in
+                a new window), the Apple Store app, or by calling 1-800-MY-APPLE, and is subject to credit approval and
+                credit limit. See support.apple.com/102730(Opens in a new window) for more information about eligible
+                products. Existing customers: See your Customer Agreement for your variable APR. As of December 1, 2024,
+                the variable APR on new Apple Card accounts ranges from 18.49% to 28.74%. You must elect to use ACMI at
+                checkout. If you buy an ACMI-eligible product with a one-time payment on Apple Card at checkout, that
+                purchase is subject to your Apple Card’s variable APR, not the ACMI 0% APR. Taxes and shipping on items
+                purchased using ACMI are subject to your Apple Card’s variable APR, not the ACMI 0% APR. In order to buy
+                an iPhone with ACMI, you must select one of the following carriers: AT&T, Boost Mobile, T-Mobile, or
+                Verizon. An iPhone purchased with ACMI is always unlocked, so you can switch carriers at any time,
+                subject to your carrier’s terms. ACMI is not available for purchases made online at the following
+                special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple
+                at Work for small businesses; Government and Veterans and Military Purchase Programs; or on refurbished
+                devices. The last month’s payment for each product will be the product's purchase price, less all other
+                payments at the monthly payment amount. ACMI is subject to change at any time for any reason, including
+                but not limited to installment term lengths and eligible products. See the Apple Card Customer
+                Agreement(Opens in a new window) for more information about ACMI.
+
+
+
+
+                <br><br><br>
+                <hr><br>
+            <pre
+                style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;justify-content:center;padding:30px;font-size: 12px;color: black;">                                                                                                                                                                     ©️ Website Made By Emaan</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
